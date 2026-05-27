@@ -1,0 +1,26 @@
+# STM32CubeIDE build folders
+Debug/
+Release/
+
+# Generated binaries
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Temporary/editor files
+*.o
+*.d
+*.su
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# STM32CubeIDE metadata (optional)
+.settings/language.settings.xml
+
+# Logs
+*.log
