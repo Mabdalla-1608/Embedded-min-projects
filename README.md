@@ -40,40 +40,69 @@ This project is focused on developing practical experience with:
 * Oscilloscope (optional)
 -->
 
+
 ## Repository Structure
 
 ```text
-.
-├── projects/
-│   ├── gpio_blink/
-│   ├── uart_echo/
-│   ├── timer_interrupts/
-│   ├── spi_driver/
-│   └── ...
+Embedded-min-projects/
+├── Project1_Blinky/
+│   ├── Core/
+│   │   ├── Inc/
+│   │   ├── Src/
+│   │   └── Startup/
+│   ├── Project1_Blinky.ioc
+│   └── STM32L432KCUX_FLASH.ld
 │
-├── drivers/
-│   ├── gpio/
-│   ├── uart/
-│   ├── spi/
-│   └── ...
+├── Project2_UART_Hello_World/
+│   ├── Core/
+│   │   ├── Inc/
+│   │   ├── Src/
+│   │   └── Startup/
+│   ├── Project2_UART_Hello_World.ioc
+│   └── STM32L432KCUX_FLASH.ld
 │
-├── docs/
-│   ├── notes/
-│   ├── diagrams/
-│   └── references/
-│
-└── README.md
+└── Project3_Motor_Control/
+    ├── Core/
+    │   ├── Inc/
+    │   ├── Src/
+    │   └── Startup/
+    ├── Project3_Motor_Control.ioc
+    └── STM32L432KCUX_FLASH.ld
 ```
+<!--
+│
+├── Project4_Motor_Speed_Simple/
+│   ├── Core/
+│   ├── Project4_Motor_Speed_Simple.ioc
+│   └── STM32L432KCUX_FLASH.ld
+│
+└── Project5_Motor_Speed_Joystick/
+    ├── Core/
+    ├── Project5_Motor_Speed_Joystick.ioc
+    └── STM32L432KCUX_FLASH.ld
+-->
 
-## Experiments and Projects
 
-| Project          | Description                   | Status |
-| ---------------- | ----------------------------- | ------ |
-| GPIO Blink       | Basic LED control             | ✅      |
-| UART Echo        | Serial communication testing  | ✅      |
-| Timer Interrupts | Periodic task execution       | 🚧     |
-| SPI Driver       | Custom SPI interface          | 🚧     |
-| Low Power Modes  | Sleep and wake-up experiments | 📋     |
+### Key Files
+
+* `Core/Inc` – Application header files
+* `Core/Src` – Application source files
+* `Core/Startup` – MCU startup code and interrupt vectors
+* `.ioc` – STM32CubeMX project configuration
+* `.ld` – Linker script for STM32L432KC flash memory layout
+
+### Projects 
+
+| Project                       | Description                                 | Status |
+| ----------------------------- | ------------------------------------------- | ------ |
+| Project1_Blinky               | GPIO configuration and LED blinking         |✅      |
+| Project2_UART_Hello_World     | UART communication and serial output        |✅      |
+| Project3_Motor_Control        | Basic motor control using STM32 peripherals |✅      |
+| Project4_Motor_Speed_Simple   | PWM-based motor speed control               |🚧      |
+| Project5_Motor_Speed_Joystick | ADC joystick input controlling motor speed  |🚧      |
+
+```
+```
 
 ## Getting Started
 
