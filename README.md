@@ -30,9 +30,15 @@ This project is focused on developing practical experience with:
 
 * STM32CubeIDE
 * STM32CubeMX
-* ST-LINK debugger/programmer
+<!--
+* ST-LINK debugger/programmer 
+-->
+<!--
 * Logic analyzer (optional)
+-->
+<!-- 
 * Oscilloscope (optional)
+-->
 
 ## Repository Structure
 
