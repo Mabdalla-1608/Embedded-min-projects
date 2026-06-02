@@ -90,7 +90,7 @@ Motor OFF by disabling EN
 
 ## 🖼️ Circuit Diagram
 
-
-```markdown
+![Project 3 Circuit](docs/images/Circuit_diagram_from_cirkit.png)
 ![Project 3 Circuit](docs/images/Full_circuit.jpg)
-```
+![Project 3 Circuit](docs/images/Clean_breadboard_view.jpg)
+
